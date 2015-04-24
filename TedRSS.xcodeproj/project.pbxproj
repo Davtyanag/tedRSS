@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2AED3911AEABC73003171CC /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AED3901AEABC73003171CC /* NavigationController.m */; };
 		C2FE215F1AEA5D52004F8194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE215E1AEA5D52004F8194 /* main.m */; };
 		C2FE21621AEA5D52004F8194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21611AEA5D52004F8194 /* AppDelegate.m */; };
 		C2FE21651AEA5D52004F8194 /* TedRSS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21631AEA5D52004F8194 /* TedRSS.xcdatamodeld */; };
@@ -22,7 +23,6 @@
 		C2FE21981AEA7AA2004F8194 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FE21971AEA7AA2004F8194 /* MediaPlayer.framework */; };
 		C2FE219A1AEA7AA9004F8194 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FE21991AEA7AA9004F8194 /* AVFoundation.framework */; };
 		C2FE219E1AEA9D2C004F8194 /* MYMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE219D1AEA9D2C004F8194 /* MYMoviePlayerViewController.m */; };
-		C2FE21A21AEAA488004F8194 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21A11AEAA488004F8194 /* NavigationController.m */; };
 		C2FE21D81AEAAAA2004F8194 /* DetailVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21D71AEAAAA2004F8194 /* DetailVideoViewController.m */; };
 		C2FE21DC1AEAAF92004F8194 /* RSSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21DA1AEAAF92004F8194 /* RSSObject.m */; };
 		D2FA766D0D94F5D9AD133528 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E7FA0E1B21A2B10E63A836 /* libPods.a */; };
@@ -42,6 +42,8 @@
 		72E7FA0E1B21A2B10E63A836 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		894EA684586EEB56B25FA988 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8A6A39B2421A84365A393602 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C2AED38F1AEABC73003171CC /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationController.h; path = TedRSS/NavigationController.h; sourceTree = "<group>"; };
+		C2AED3901AEABC73003171CC /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationController.m; path = TedRSS/NavigationController.m; sourceTree = "<group>"; };
 		C2FE21591AEA5D52004F8194 /* TedRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TedRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FE215D1AEA5D52004F8194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FE215E1AEA5D52004F8194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,8 +67,6 @@
 		C2FE21991AEA7AA9004F8194 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C2FE219C1AEA9D2C004F8194 /* MYMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMoviePlayerViewController.h; sourceTree = "<group>"; };
 		C2FE219D1AEA9D2C004F8194 /* MYMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMoviePlayerViewController.m; sourceTree = "<group>"; };
-		C2FE21A01AEAA488004F8194 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
-		C2FE21A11AEAA488004F8194 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		C2FE21D61AEAAAA2004F8194 /* DetailVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVideoViewController.h; sourceTree = "<group>"; };
 		C2FE21D71AEAAAA2004F8194 /* DetailVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVideoViewController.m; sourceTree = "<group>"; };
 		C2FE21DA1AEAAF92004F8194 /* RSSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSObject.m; sourceTree = "<group>"; };
@@ -214,8 +214,8 @@
 		C2FE219F1AEAA467004F8194 /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C2FE21A01AEAA488004F8194 /* NavigationController.h */,
-				C2FE21A11AEAA488004F8194 /* NavigationController.m */,
+				C2AED38F1AEABC73003171CC /* NavigationController.h */,
+				C2AED3901AEABC73003171CC /* NavigationController.m */,
 			);
 			name = "Navigation Controller";
 			path = ..;
@@ -378,11 +378,11 @@
 				C2FE21621AEA5D52004F8194 /* AppDelegate.m in Sources */,
 				C2FE21DC1AEAAF92004F8194 /* RSSObject.m in Sources */,
 				C2FE218C1AEA6E37004F8194 /* VideoCell.m in Sources */,
+				C2AED3911AEABC73003171CC /* NavigationController.m in Sources */,
 				C2FE219E1AEA9D2C004F8194 /* MYMoviePlayerViewController.m in Sources */,
 				C2FE215F1AEA5D52004F8194 /* main.m in Sources */,
 				C2FE21681AEA5D52004F8194 /* VideoViewController.m in Sources */,
 				C2FE21651AEA5D52004F8194 /* TedRSS.xcdatamodeld in Sources */,
-				C2FE21A21AEAA488004F8194 /* NavigationController.m in Sources */,
 				C2FE21D81AEAAAA2004F8194 /* DetailVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
