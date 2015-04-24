@@ -10,11 +10,22 @@
 		C2FE215F1AEA5D52004F8194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE215E1AEA5D52004F8194 /* main.m */; };
 		C2FE21621AEA5D52004F8194 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21611AEA5D52004F8194 /* AppDelegate.m */; };
 		C2FE21651AEA5D52004F8194 /* TedRSS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21631AEA5D52004F8194 /* TedRSS.xcdatamodeld */; };
-		C2FE21681AEA5D52004F8194 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21671AEA5D52004F8194 /* ViewController.m */; };
+		C2FE21681AEA5D52004F8194 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21671AEA5D52004F8194 /* VideoViewController.m */; };
 		C2FE216B1AEA5D52004F8194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FE21691AEA5D52004F8194 /* Main.storyboard */; };
 		C2FE216D1AEA5D52004F8194 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FE216C1AEA5D52004F8194 /* Images.xcassets */; };
 		C2FE21701AEA5D52004F8194 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2FE216E1AEA5D52004F8194 /* LaunchScreen.xib */; };
 		C2FE217C1AEA5D52004F8194 /* TedRSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE217B1AEA5D52004F8194 /* TedRSSTests.m */; };
+		C2FE218C1AEA6E37004F8194 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE218B1AEA6E37004F8194 /* VideoCell.m */; };
+		C2FE21921AEA76B4004F8194 /* video_default_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FE21911AEA76B4004F8194 /* video_default_icon.png */; };
+		C2FE21941AEA77D0004F8194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FE21931AEA77D0004F8194 /* Foundation.framework */; };
+		C2FE21961AEA77D6004F8194 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FE21951AEA77D6004F8194 /* ImageIO.framework */; };
+		C2FE21981AEA7AA2004F8194 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FE21971AEA7AA2004F8194 /* MediaPlayer.framework */; };
+		C2FE219A1AEA7AA9004F8194 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FE21991AEA7AA9004F8194 /* AVFoundation.framework */; };
+		C2FE219E1AEA9D2C004F8194 /* MYMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE219D1AEA9D2C004F8194 /* MYMoviePlayerViewController.m */; };
+		C2FE21A21AEAA488004F8194 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21A11AEAA488004F8194 /* NavigationController.m */; };
+		C2FE21D81AEAAAA2004F8194 /* DetailVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21D71AEAAAA2004F8194 /* DetailVideoViewController.m */; };
+		C2FE21DC1AEAAF92004F8194 /* RSSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE21DA1AEAAF92004F8194 /* RSSObject.m */; };
+		D2FA766D0D94F5D9AD133528 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E7FA0E1B21A2B10E63A836 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +39,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72E7FA0E1B21A2B10E63A836 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		894EA684586EEB56B25FA988 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8A6A39B2421A84365A393602 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C2FE21591AEA5D52004F8194 /* TedRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TedRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FE215D1AEA5D52004F8194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FE215E1AEA5D52004F8194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2FE21601AEA5D52004F8194 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2FE21611AEA5D52004F8194 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C2FE21641AEA5D52004F8194 /* TedRSS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TedRSS.xcdatamodel; sourceTree = "<group>"; };
-		C2FE21661AEA5D52004F8194 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C2FE21671AEA5D52004F8194 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2FE21661AEA5D52004F8194 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		C2FE21671AEA5D52004F8194 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		C2FE216A1AEA5D52004F8194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2FE216C1AEA5D52004F8194 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C2FE216F1AEA5D52004F8194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C2FE21751AEA5D52004F8194 /* TedRSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TedRSSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FE217A1AEA5D52004F8194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2FE217B1AEA5D52004F8194 /* TedRSSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TedRSSTests.m; sourceTree = "<group>"; };
+		C2FE218A1AEA6E37004F8194 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		C2FE218B1AEA6E37004F8194 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		C2FE21911AEA76B4004F8194 /* video_default_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_default_icon.png; sourceTree = "<group>"; };
+		C2FE21931AEA77D0004F8194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2FE21951AEA77D6004F8194 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C2FE21971AEA7AA2004F8194 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C2FE21991AEA7AA9004F8194 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C2FE219C1AEA9D2C004F8194 /* MYMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYMoviePlayerViewController.h; sourceTree = "<group>"; };
+		C2FE219D1AEA9D2C004F8194 /* MYMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYMoviePlayerViewController.m; sourceTree = "<group>"; };
+		C2FE21A01AEAA488004F8194 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		C2FE21A11AEAA488004F8194 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		C2FE21D61AEAAAA2004F8194 /* DetailVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVideoViewController.h; sourceTree = "<group>"; };
+		C2FE21D71AEAAAA2004F8194 /* DetailVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVideoViewController.m; sourceTree = "<group>"; };
+		C2FE21DA1AEAAF92004F8194 /* RSSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSObject.m; sourceTree = "<group>"; };
+		C2FE21DB1AEAAF92004F8194 /* RSSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FE219A1AEA7AA9004F8194 /* AVFoundation.framework in Frameworks */,
+				C2FE21981AEA7AA2004F8194 /* MediaPlayer.framework in Frameworks */,
+				C2FE21961AEA77D6004F8194 /* ImageIO.framework in Frameworks */,
+				C2FE21941AEA77D0004F8194 /* Foundation.framework in Frameworks */,
+				D2FA766D0D94F5D9AD133528 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +96,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C66F8BC5BED7A2996268EF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A39B2421A84365A393602 /* Pods.debug.xcconfig */,
+				894EA684586EEB56B25FA988 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		616F2A6A52E0C2ACEC9F7FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE21991AEA7AA9004F8194 /* AVFoundation.framework */,
+				C2FE21971AEA7AA2004F8194 /* MediaPlayer.framework */,
+				C2FE21951AEA77D6004F8194 /* ImageIO.framework */,
+				C2FE21931AEA77D0004F8194 /* Foundation.framework */,
+				72E7FA0E1B21A2B10E63A836 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2FE21501AEA5D52004F8194 = {
 			isa = PBXGroup;
 			children = (
 				C2FE215B1AEA5D52004F8194 /* TedRSS */,
 				C2FE21781AEA5D52004F8194 /* TedRSSTests */,
 				C2FE215A1AEA5D52004F8194 /* Products */,
+				3C66F8BC5BED7A2996268EF0 /* Pods */,
+				616F2A6A52E0C2ACEC9F7FDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +140,20 @@
 		C2FE215B1AEA5D52004F8194 /* TedRSS */ = {
 			isa = PBXGroup;
 			children = (
-				C2FE21601AEA5D52004F8194 /* AppDelegate.h */,
+				C2FE21D91AEAAF87004F8194 /* RSSObject */,
+				C2FE21A31AEAA8FD004F8194 /* Detail View Controller */,
+				C2FE219B1AEA9D16004F8194 /* Movie Controller */,
+				C2FE21891AEA6E06004F8194 /* VideoCell */,
+				C2FE21661AEA5D52004F8194 /* VideoViewController.h */,
+				C2FE21671AEA5D52004F8194 /* VideoViewController.m */,
 				C2FE21611AEA5D52004F8194 /* AppDelegate.m */,
-				C2FE21661AEA5D52004F8194 /* ViewController.h */,
-				C2FE21671AEA5D52004F8194 /* ViewController.m */,
+				C2FE21601AEA5D52004F8194 /* AppDelegate.h */,
 				C2FE21691AEA5D52004F8194 /* Main.storyboard */,
 				C2FE216C1AEA5D52004F8194 /* Images.xcassets */,
 				C2FE216E1AEA5D52004F8194 /* LaunchScreen.xib */,
 				C2FE21631AEA5D52004F8194 /* TedRSS.xcdatamodeld */,
+				C2FE21901AEA7687004F8194 /* Images */,
+				C2FE219F1AEAA467004F8194 /* Navigation Controller */,
 				C2FE215C1AEA5D52004F8194 /* Supporting Files */,
 			);
 			path = TedRSS;
@@ -122,6 +185,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2FE21891AEA6E06004F8194 /* VideoCell */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE218A1AEA6E37004F8194 /* VideoCell.h */,
+				C2FE218B1AEA6E37004F8194 /* VideoCell.m */,
+			);
+			name = VideoCell;
+			sourceTree = "<group>";
+		};
+		C2FE21901AEA7687004F8194 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE21911AEA76B4004F8194 /* video_default_icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C2FE219B1AEA9D16004F8194 /* Movie Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE219C1AEA9D2C004F8194 /* MYMoviePlayerViewController.h */,
+				C2FE219D1AEA9D2C004F8194 /* MYMoviePlayerViewController.m */,
+			);
+			name = "Movie Controller";
+			sourceTree = "<group>";
+		};
+		C2FE219F1AEAA467004F8194 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE21A01AEAA488004F8194 /* NavigationController.h */,
+				C2FE21A11AEAA488004F8194 /* NavigationController.m */,
+			);
+			name = "Navigation Controller";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C2FE21A31AEAA8FD004F8194 /* Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE21D61AEAAAA2004F8194 /* DetailVideoViewController.h */,
+				C2FE21D71AEAAAA2004F8194 /* DetailVideoViewController.m */,
+			);
+			name = "Detail View Controller";
+			sourceTree = "<group>";
+		};
+		C2FE21D91AEAAF87004F8194 /* RSSObject */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE21DA1AEAAF92004F8194 /* RSSObject.m */,
+				C2FE21DB1AEAAF92004F8194 /* RSSObject.h */,
+			);
+			name = RSSObject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2FE217F1AEA5D52004F8194 /* Build configuration list for PBXNativeTarget "TedRSS" */;
 			buildPhases = (
+				1BA046AE4753FC33A8D0C230 /* Check Pods Manifest.lock */,
 				C2FE21551AEA5D52004F8194 /* Sources */,
 				C2FE21561AEA5D52004F8194 /* Frameworks */,
 				C2FE21571AEA5D52004F8194 /* Resources */,
+				6D8C3C6376D285879D6CA5AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +323,7 @@
 			files = (
 				C2FE216B1AEA5D52004F8194 /* Main.storyboard in Resources */,
 				C2FE21701AEA5D52004F8194 /* LaunchScreen.xib in Resources */,
+				C2FE21921AEA76B4004F8194 /* video_default_icon.png in Resources */,
 				C2FE216D1AEA5D52004F8194 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,15 +337,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BA046AE4753FC33A8D0C230 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8C3C6376D285879D6CA5AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2FE21551AEA5D52004F8194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2FE21621AEA5D52004F8194 /* AppDelegate.m in Sources */,
+				C2FE21DC1AEAAF92004F8194 /* RSSObject.m in Sources */,
+				C2FE218C1AEA6E37004F8194 /* VideoCell.m in Sources */,
+				C2FE219E1AEA9D2C004F8194 /* MYMoviePlayerViewController.m in Sources */,
 				C2FE215F1AEA5D52004F8194 /* main.m in Sources */,
-				C2FE21681AEA5D52004F8194 /* ViewController.m in Sources */,
+				C2FE21681AEA5D52004F8194 /* VideoViewController.m in Sources */,
 				C2FE21651AEA5D52004F8194 /* TedRSS.xcdatamodeld in Sources */,
+				C2FE21A21AEAA488004F8194 /* NavigationController.m in Sources */,
+				C2FE21D81AEAAAA2004F8194 /* DetailVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,21 +507,25 @@
 		};
 		C2FE21801AEA5D52004F8194 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6A39B2421A84365A393602 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TedRSS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C2FE21811AEA5D52004F8194 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894EA684586EEB56B25FA988 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TedRSS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -420,6 +582,7 @@
 				C2FE21811AEA5D52004F8194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2FE21821AEA5D52004F8194 /* Build configuration list for PBXNativeTarget "TedRSSTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +591,7 @@
 				C2FE21841AEA5D52004F8194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
